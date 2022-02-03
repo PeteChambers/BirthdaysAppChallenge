@@ -26,11 +26,11 @@ class BirthdaysListViewModel {
 
 extension BirthdaysListViewModel {
 
-    func getInvestorProducts(token: String) {
+    func fetchBirthdays() {
         webService.fetchBirthdays { result in
             switch result {
             case.success(let birthdays):
-                self.birthdayResult = birthdays
+                self.birthdayResult = birthdays.results
                 self.delegate?.reloadBirthdays()
             case .failure(let error):
                 self.delegate?.failure(message: error.localizedDescription)

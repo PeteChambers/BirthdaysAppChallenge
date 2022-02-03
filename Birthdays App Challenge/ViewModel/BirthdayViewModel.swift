@@ -23,12 +23,25 @@ extension BirthdayViewModel {
         birthday.name.title.rawValue
     }
 
-    var firstName: String {
-        birthday.name.first
+    var fullName: String {
+        "\(birthday.name.first) \(birthday.name.last)"
     }
 
-    var lastName: String {
-        birthday.name.last
+    var initials: String {
+        let formatter = PersonNameComponentsFormatter()
+        if let components = formatter.personNameComponents(from: fullName) {
+             formatter.style = .abbreviated
+             return formatter.string(from: components)
+        }
+        return ""
+    }
+
+    var dateOfBirth: String {
+        String(birthday.dob.date.prefix(10))
+    }
+
+    var age: String {
+        String(birthday.dob.age)
     }
 
 }

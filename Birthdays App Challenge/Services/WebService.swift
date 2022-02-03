@@ -12,10 +12,6 @@ class WebService {
 
     private let defaultQueue = DispatchQueue.global(qos: .userInitiated)
 
-    private func doSomething(completion: BirthdayResult) {
-
-    }
-
     private func callURL<T:Decodable>(url: URL, method: HTTPMethod, encoding: ParameterEncoding, completion: @escaping (Result<T,Error>) -> Void) {
 
 
@@ -49,7 +45,7 @@ class WebService {
 
     // MARK: Fetch Birthdays
 
-    func fetchBirthdays(completion: @escaping ((Result<[BirthdayResult],Error>) -> Void)) {
+    func fetchBirthdays(completion: @escaping ((Result<Birthdays,Error>) -> Void)) {
 
         guard let url = URL.fetchBirthdays() else { return }
         callURL(url: url, method: .get, encoding: JSONEncoding.default, completion: completion)
