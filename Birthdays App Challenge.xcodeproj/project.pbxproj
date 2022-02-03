@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053B8205025068AA837A8421 /* Pods_Birthdays_App_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF13A6B22D6E59C33DC8D45 /* Pods_Birthdays_App_ChallengeTests.framework */; };
+		1BDC0787F2D22226ABEE81E1 /* Pods_Birthdays_App_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079B31B5910394F386D994D5 /* Pods_Birthdays_App_Challenge.framework */; };
 		4307C3D127ABEF5F001CF6EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C3D027ABEF5F001CF6EB /* AppDelegate.swift */; };
 		4307C3D327ABEF5F001CF6EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C3D227ABEF5F001CF6EB /* SceneDelegate.swift */; };
 		4307C3D527ABEF5F001CF6EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C3D427ABEF5F001CF6EB /* ViewController.swift */; };
@@ -16,6 +18,13 @@
 		4307C3E827ABEF63001CF6EB /* Birthdays_App_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C3E727ABEF63001CF6EB /* Birthdays_App_ChallengeTests.swift */; };
 		4307C3F227ABEF63001CF6EB /* Birthdays_App_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C3F127ABEF63001CF6EB /* Birthdays_App_ChallengeUITests.swift */; };
 		4307C3F427ABEF63001CF6EB /* Birthdays_App_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C3F327ABEF63001CF6EB /* Birthdays_App_ChallengeUITestsLaunchTests.swift */; };
+		4307C40527ABF033001CF6EB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40427ABF033001CF6EB /* WebService.swift */; };
+		4307C40727ABF04D001CF6EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40627ABF04D001CF6EB /* Constants.swift */; };
+		4307C40927ABF082001CF6EB /* Url+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40827ABF082001CF6EB /* Url+Extensions.swift */; };
+		4307C40B27ABF261001CF6EB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40A27ABF261001CF6EB /* DataModel.swift */; };
+		4307C40E27ABF9A9001CF6EB /* BirthdaysListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40D27ABF9A9001CF6EB /* BirthdaysListViewModel.swift */; };
+		4307C41027ABFC47001CF6EB /* BirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40F27ABFC47001CF6EB /* BirthdayViewModel.swift */; };
+		A4522915E01CEEECEE909269 /* Pods_Birthdays_App_Challenge_Birthdays_App_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC730A27217D479CD270BAB /* Pods_Birthdays_App_Challenge_Birthdays_App_ChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		079B31B5910394F386D994D5 /* Pods_Birthdays_App_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Birthdays_App_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		141051A8AE7D164E40789841 /* Pods-Birthdays App ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthdays App ChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-Birthdays App ChallengeTests/Pods-Birthdays App ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DF13A6B22D6E59C33DC8D45 /* Pods_Birthdays_App_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Birthdays_App_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4307C3CD27ABEF5F001CF6EB /* Birthdays App Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birthdays App Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4307C3D027ABEF5F001CF6EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4307C3D227ABEF5F001CF6EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		4307C3ED27ABEF63001CF6EB /* Birthdays App ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birthdays App ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4307C3F127ABEF63001CF6EB /* Birthdays_App_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthdays_App_ChallengeUITests.swift; sourceTree = "<group>"; };
 		4307C3F327ABEF63001CF6EB /* Birthdays_App_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthdays_App_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4307C40427ABF033001CF6EB /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		4307C40627ABF04D001CF6EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4307C40827ABF082001CF6EB /* Url+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Url+Extensions.swift"; sourceTree = "<group>"; };
+		4307C40A27ABF261001CF6EB /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		4307C40D27ABF9A9001CF6EB /* BirthdaysListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListViewModel.swift; sourceTree = "<group>"; };
+		4307C40F27ABFC47001CF6EB /* BirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewModel.swift; sourceTree = "<group>"; };
+		646E07067EF8698F4BE33C00 /* Pods-Birthdays App Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthdays App Challenge.release.xcconfig"; path = "Target Support Files/Pods-Birthdays App Challenge/Pods-Birthdays App Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		A3F37A80B3DD5D58865BD6E0 /* Pods-Birthdays App ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthdays App ChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-Birthdays App ChallengeTests/Pods-Birthdays App ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E48249C8118E6F6BED5AE230 /* Pods-Birthdays App Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthdays App Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Birthdays App Challenge/Pods-Birthdays App Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		F2EED5A14C4E62C1194AEA45 /* Pods-Birthdays App Challenge-Birthdays App ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthdays App Challenge-Birthdays App ChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F84BE95A8EDFD0E1F4E9D191 /* Pods-Birthdays App Challenge-Birthdays App ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthdays App Challenge-Birthdays App ChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FAC730A27217D479CD270BAB /* Pods_Birthdays_App_Challenge_Birthdays_App_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Birthdays_App_Challenge_Birthdays_App_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDC0787F2D22226ABEE81E1 /* Pods_Birthdays_App_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053B8205025068AA837A8421 /* Pods_Birthdays_App_ChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4522915E01CEEECEE909269 /* Pods_Birthdays_App_Challenge_Birthdays_App_ChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25855BC0658C2239F1D9EB52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				079B31B5910394F386D994D5 /* Pods_Birthdays_App_Challenge.framework */,
+				FAC730A27217D479CD270BAB /* Pods_Birthdays_App_Challenge_Birthdays_App_ChallengeUITests.framework */,
+				2DF13A6B22D6E59C33DC8D45 /* Pods_Birthdays_App_ChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4307C3C427ABEF5F001CF6EB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				4307C3E627ABEF63001CF6EB /* Birthdays App ChallengeTests */,
 				4307C3F027ABEF63001CF6EB /* Birthdays App ChallengeUITests */,
 				4307C3CE27ABEF5F001CF6EB /* Products */,
+				DDDA1D3EF4157B700251677E /* Pods */,
+				25855BC0658C2239F1D9EB52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +138,11 @@
 		4307C3CF27ABEF5F001CF6EB /* Birthdays App Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				4307C40027ABEFD1001CF6EB /* Extensions */,
+				4307C40127ABEFDA001CF6EB /* Services */,
+				4307C40227ABEFF6001CF6EB /* Model */,
+				4307C40327ABF013001CF6EB /* View */,
+				4307C40C27ABF968001CF6EB /* ViewModel */,
 				4307C3D027ABEF5F001CF6EB /* AppDelegate.swift */,
 				4307C3D227ABEF5F001CF6EB /* SceneDelegate.swift */,
 				4307C3D427ABEF5F001CF6EB /* ViewController.swift */,
@@ -127,6 +171,60 @@
 			path = "Birthdays App ChallengeUITests";
 			sourceTree = "<group>";
 		};
+		4307C40027ABEFD1001CF6EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4307C40827ABF082001CF6EB /* Url+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4307C40127ABEFDA001CF6EB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4307C40427ABF033001CF6EB /* WebService.swift */,
+				4307C40627ABF04D001CF6EB /* Constants.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4307C40227ABEFF6001CF6EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4307C40A27ABF261001CF6EB /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4307C40327ABF013001CF6EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4307C40C27ABF968001CF6EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4307C40D27ABF9A9001CF6EB /* BirthdaysListViewModel.swift */,
+				4307C40F27ABFC47001CF6EB /* BirthdayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDDA1D3EF4157B700251677E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E48249C8118E6F6BED5AE230 /* Pods-Birthdays App Challenge.debug.xcconfig */,
+				646E07067EF8698F4BE33C00 /* Pods-Birthdays App Challenge.release.xcconfig */,
+				F2EED5A14C4E62C1194AEA45 /* Pods-Birthdays App Challenge-Birthdays App ChallengeUITests.debug.xcconfig */,
+				F84BE95A8EDFD0E1F4E9D191 /* Pods-Birthdays App Challenge-Birthdays App ChallengeUITests.release.xcconfig */,
+				141051A8AE7D164E40789841 /* Pods-Birthdays App ChallengeTests.debug.xcconfig */,
+				A3F37A80B3DD5D58865BD6E0 /* Pods-Birthdays App ChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4307C3F727ABEF63001CF6EB /* Build configuration list for PBXNativeTarget "Birthdays App Challenge" */;
 			buildPhases = (
+				1DEA69957FDFF8AD77238B28 /* [CP] Check Pods Manifest.lock */,
 				4307C3C927ABEF5F001CF6EB /* Sources */,
 				4307C3CA27ABEF5F001CF6EB /* Frameworks */,
 				4307C3CB27ABEF5F001CF6EB /* Resources */,
+				54A03F9696A1013FAEF0C143 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4307C3FA27ABEF63001CF6EB /* Build configuration list for PBXNativeTarget "Birthdays App ChallengeTests" */;
 			buildPhases = (
+				C997BF8718B64D9791910BA2 /* [CP] Check Pods Manifest.lock */,
 				4307C3DF27ABEF63001CF6EB /* Sources */,
 				4307C3E027ABEF63001CF6EB /* Frameworks */,
 				4307C3E127ABEF63001CF6EB /* Resources */,
@@ -169,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4307C3FD27ABEF63001CF6EB /* Build configuration list for PBXNativeTarget "Birthdays App ChallengeUITests" */;
 			buildPhases = (
+				9D06ACA65DFA2E8952385421 /* [CP] Check Pods Manifest.lock */,
 				4307C3E927ABEF63001CF6EB /* Sources */,
 				4307C3EA27ABEF63001CF6EB /* Frameworks */,
 				4307C3EB27ABEF63001CF6EB /* Resources */,
+				B2F7060961584232A56EB1A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +356,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DEA69957FDFF8AD77238B28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Birthdays App Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A03F9696A1013FAEF0C143 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Birthdays App Challenge/Pods-Birthdays App Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Birthdays App Challenge/Pods-Birthdays App Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Birthdays App Challenge/Pods-Birthdays App Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D06ACA65DFA2E8952385421 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F7060961584232A56EB1A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests/Pods-Birthdays App Challenge-Birthdays App ChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C997BF8718B64D9791910BA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Birthdays App ChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4307C3C927ABEF5F001CF6EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4307C40B27ABF261001CF6EB /* DataModel.swift in Sources */,
+				4307C40E27ABF9A9001CF6EB /* BirthdaysListViewModel.swift in Sources */,
+				4307C40727ABF04D001CF6EB /* Constants.swift in Sources */,
 				4307C3D527ABEF5F001CF6EB /* ViewController.swift in Sources */,
 				4307C3D127ABEF5F001CF6EB /* AppDelegate.swift in Sources */,
+				4307C40527ABF033001CF6EB /* WebService.swift in Sources */,
+				4307C41027ABFC47001CF6EB /* BirthdayViewModel.swift in Sources */,
 				4307C3D327ABEF5F001CF6EB /* SceneDelegate.swift in Sources */,
+				4307C40927ABF082001CF6EB /* Url+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +646,7 @@
 		};
 		4307C3F827ABEF63001CF6EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48249C8118E6F6BED5AE230 /* Pods-Birthdays App Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +675,7 @@
 		};
 		4307C3F927ABEF63001CF6EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646E07067EF8698F4BE33C00 /* Pods-Birthdays App Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +704,7 @@
 		};
 		4307C3FB27ABEF63001CF6EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141051A8AE7D164E40789841 /* Pods-Birthdays App ChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +725,7 @@
 		};
 		4307C3FC27ABEF63001CF6EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F37A80B3DD5D58865BD6E0 /* Pods-Birthdays App ChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +746,7 @@
 		};
 		4307C3FE27ABEF63001CF6EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2EED5A14C4E62C1194AEA45 /* Pods-Birthdays App Challenge-Birthdays App ChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +765,7 @@
 		};
 		4307C3FF27ABEF63001CF6EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84BE95A8EDFD0E1F4E9D191 /* Pods-Birthdays App Challenge-Birthdays App ChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
