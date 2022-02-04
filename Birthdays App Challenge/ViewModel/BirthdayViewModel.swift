@@ -37,7 +37,7 @@ extension BirthdayViewModel {
     }
 
     var dateOfBirth: String {
-        String(birthday.dob.date.prefix(10))
+        birthday.dob.date.components(separatedBy: "T")[0]
     }
 
     var age: String {
