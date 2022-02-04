@@ -19,7 +19,6 @@
 		4307C3F227ABEF63001CF6EB /* Birthdays_App_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C3F127ABEF63001CF6EB /* Birthdays_App_ChallengeUITests.swift */; };
 		4307C3F427ABEF63001CF6EB /* Birthdays_App_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C3F327ABEF63001CF6EB /* Birthdays_App_ChallengeUITestsLaunchTests.swift */; };
 		4307C40527ABF033001CF6EB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40427ABF033001CF6EB /* WebService.swift */; };
-		4307C40727ABF04D001CF6EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40627ABF04D001CF6EB /* Constants.swift */; };
 		4307C40927ABF082001CF6EB /* Url+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40827ABF082001CF6EB /* Url+Extensions.swift */; };
 		4307C40B27ABF261001CF6EB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40A27ABF261001CF6EB /* DataModel.swift */; };
 		4307C40E27ABF9A9001CF6EB /* BirthdaysListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307C40D27ABF9A9001CF6EB /* BirthdaysListViewModel.swift */; };
@@ -66,7 +65,6 @@
 		4307C3F127ABEF63001CF6EB /* Birthdays_App_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthdays_App_ChallengeUITests.swift; sourceTree = "<group>"; };
 		4307C3F327ABEF63001CF6EB /* Birthdays_App_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthdays_App_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4307C40427ABF033001CF6EB /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		4307C40627ABF04D001CF6EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4307C40827ABF082001CF6EB /* Url+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Url+Extensions.swift"; sourceTree = "<group>"; };
 		4307C40A27ABF261001CF6EB /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		4307C40D27ABF9A9001CF6EB /* BirthdaysListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysListViewModel.swift; sourceTree = "<group>"; };
@@ -191,7 +189,6 @@
 			isa = PBXGroup;
 			children = (
 				4307C40427ABF033001CF6EB /* WebService.swift */,
-				4307C40627ABF04D001CF6EB /* Constants.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -488,7 +485,6 @@
 				4307C40B27ABF261001CF6EB /* DataModel.swift in Sources */,
 				4307C40E27ABF9A9001CF6EB /* BirthdaysListViewModel.swift in Sources */,
 				4307C41B27AC193B001CF6EB /* BirthdayDetailViewController.swift in Sources */,
-				4307C40727ABF04D001CF6EB /* Constants.swift in Sources */,
 				4307C3D527ABEF5F001CF6EB /* ViewController.swift in Sources */,
 				4307C41627AC0C17001CF6EB /* BirthdayCell.swift in Sources */,
 				4307C41927AC1921001CF6EB /* BirthdaysListViewController.swift in Sources */,
