@@ -37,8 +37,18 @@ extension BirthdayViewModel {
     }
 
     var dateOfBirth: String {
-        birthday.dob.date.components(separatedBy: "T")[0]
+        let dobString = birthday.dob.date.components(separatedBy: ".")[0]
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+        if let date = dateFormatter.date(from: dobString) {
+            dateFormatter.dateFormat = "dd-MM-yyyy"
+            let formattedDobString = dateFormatter.string(from: date)
+            return formattedDobString
+        } else {
+            return ""
+        }
     }
+
 
     var age: String {
         String(birthday.dob.age)
